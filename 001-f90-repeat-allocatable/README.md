@@ -18,7 +18,7 @@ Observed in:
 
 Use `fpm test` to compile the reproducer code.
 
-Note: `gfortran` 9.3.0 emits the following bogus warnings:
+Note: `gfortran` 9.3.0, 10.3.0, and 11.2.0 emits the following bogus warnings:
 ```
 src/src.f90:9:0:
 
