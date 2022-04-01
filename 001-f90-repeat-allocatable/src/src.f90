@@ -1,7 +1,7 @@
 PROGRAM allocatablechar
   IMPLICIT NONE
 
-  INTRINSIC :: REPEAT, LEN
+  INTRINSIC :: REPEAT
 
   INTEGER, PARAMETER :: n = 2
   CHARACTER(LEN=:), ALLOCATABLE :: str_in, str_out
