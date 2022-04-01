@@ -1,0 +1,10 @@
+name = "squishy-bug-001"
+version = "0.1"
+license = "Unlicense"
+maintainer = "wphan@vols.utk.edu"
+copyright = "2022 Phan CodeWorks"
+
+[[test]]
+name = "repeat-allocatable"
+source-dir = "src"
+main = "src.f90"
