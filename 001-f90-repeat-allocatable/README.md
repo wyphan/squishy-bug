@@ -2,7 +2,7 @@ Bug #1
 ======
 _Last edited: Mar 31, 2022 (WYP)_
 
-Fortran `REPEAT()` intrinsic wouldn't "eat" work with
+Fortran `REPEAT()` intrinsic wouldn't work with
 `CHARACTER(LEN=:), ALLOCATABLE`
 variables.
 
@@ -15,6 +15,10 @@ testing system.
 Observed in:
   * NVHPC `nvfortran` 22.2
   * AOCC `flang` 3.2.0
+
+These are unaffected:
+  * Intel `ifort` 2021.5
+  * NAG `nagfor` 7.0
 
 Use `fpm test` to compile the reproducer code.
 
