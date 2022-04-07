@@ -13,7 +13,7 @@ wouldn't build. This package is required to build
 testing system.
 
 Observed in:
-  * NVHPC `nvfortran` 22.2
+  * NVHPC `nvfortran` 22.2 (fixed in 22.3)
   * AOCC `flang` 3.2.0
 
 These are unaffected:
