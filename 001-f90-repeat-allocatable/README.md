@@ -1,6 +1,6 @@
 Bug #1
 ======
-_Last edited: Mar 31, 2022 (WYP)_
+_Last edited: Apr 7, 2022 (WYP)_
 
 Fortran `REPEAT()` intrinsic wouldn't work with
 `CHARACTER(LEN=:), ALLOCATABLE`
