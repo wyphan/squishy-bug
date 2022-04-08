@@ -22,7 +22,7 @@ These are unaffected:
 
 Use `fpm test` to compile the reproducer code.
 
-Note: `gfortran` 9.3.0, 10.3.0, and 11.2.0 emits the following bogus warnings but are otherwise unaffected:
+Note: `gfortran` 9.3.0, 10.3.0, and 11.2.0 emit the following bogus warnings but are otherwise unaffected:
 ```
 src/src.f90:9:0:
 
