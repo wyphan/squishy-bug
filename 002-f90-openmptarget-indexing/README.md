@@ -42,7 +42,7 @@ make: *** [Makefile:18: main.cray.x] Error 1
 make: *** [Makefile:18: main.cray.x] Error 1
 ```
 
-* Cray CCE 15.0.0 + ROCm 5.5.1
+* Cray CCE 15.0.1 + ROCm 5.5.1
 ```
 /opt/cray/pe/cce/15.0.1/cce-clang/x86_64/bin/llvm-link: /opt/rocm-5.5.1/amdgcn/bitcode/hip.bc: error: Opaque pointers are only supported in -opaque-pointers mode (Producer: 'LLVM16.0.0git' Reader: 'LLVM 15.0.6')
 /opt/cray/pe/cce/15.0.1/cce-clang/x86_64/bin/llvm-link: error:  loading file '/opt/rocm-5.5.1/amdgcn/bitcode/hip.bc'
